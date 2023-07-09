@@ -4,10 +4,10 @@ Neste repositório estão os arquivos da dissertação "**Análises de Fenótipo
 
 -	O arquivo da rede completa da CCBH-2022 em CSV;
 -	Todos os códigos-fonte:
-  -	o	da análise estrutural em R e para encontrar RBH em python, implementados por Medeiros *et al*.(13) (GNR.R e RBH.py, respectivamente)), 
-  -	da binarização dos dados de RNA-seq em R (bin.R),
-  -	para construção do modelo booleano em python (GRN_to_ASSA_0.2.py),
-  -	da identificação das bacias de atração em python (find_basin.py);
+  --	o	da análise estrutural em R e para encontrar RBH em python, implementados por Medeiros *et al*.(13) (GNR.R e RBH.py, respectivamente)), 
+  --	da binarização dos dados de RNA-seq em R (bin.R),
+  --	para construção do modelo booleano em python (GRN_to_ASSA_0.2.py),
+  --	da identificação das bacias de atração em python (find_basin.py);
 -	Arquivo com instruções detalhadas e linhas de comando para construção do modelo booleano e para a simulação da trajetória, por Marcelo Trindade dos Santos (commands.txt);
 -	Arquivo com as linhas de comando para a normalização dos dados de RNA-seq, e os dados de RNA-seq normalizados, por Felicita Mabel (norm.zip);
 -	Os dados binarizados dos genes da sub-rede núcleo (genes-bin.zip);
