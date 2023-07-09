@@ -10,7 +10,7 @@ Neste repositório estão os arquivos da dissertação "**Análises de Fenótipo
     -	da identificação das bacias de atração em python (find_basin.py);
 -	Arquivo com instruções detalhadas e linhas de comando para construção do modelo booleano e para a simulação da trajetória, por Marcelo Trindade dos Santos (commands.txt);
 -	Dados de RNA-seq normalizados, por Felicita Mabel (norm.zip);
--	Os dados binarizados dos genes da sub-rede núcleo (genes-bin.zip);
+-	Dados binarizados dos genes da sub-rede núcleo (genes-bin.zip);
 -	Os resultados da simulação de trajetória e as bacias de atração (sim.zip);
 -	Tabelas adicionais e todas as figuras apresentadas com maior resolução (figs.zip). Depois do download, dar zoom nas imagens para ver os detalhes.
 
