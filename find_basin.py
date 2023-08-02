@@ -4,7 +4,6 @@ import matplotlib.pyplot as plt
 
 # check stationary genes in boolean evolution for last n time steps:
 nsteps=1000
-
 if len(sys.argv) < 2:
   print("Call this script parsing the file containing the trajectories calculated with ASSA-PBN")
 
@@ -46,21 +45,49 @@ for t in range(nsteps):
 # Normalization of the counter variable:
 counter = [ c / nsteps for c in counter]
 
+#removing conserved genes from file conserved_genes.csv
+cons_file = open("conserved_genes.csv", "r")
+conserved = []
+for l in cons_file:
+    conserved.append(l.strip())
+
+dynamic_genes={}
+
+for i in range(len(genes)):
+    if genes[i] not in conserved:
+            dynamic_genes[genes[i]]  = counter[i]
+    
+
 out = open("reached_basin.csv", "w")
-for i in range(ngenes):        
-    print(genes[i],"    ", counter[i], file = out)
+for g in dynamic_genes.keys():        
+    print(g, "\t", dynamic_genes[g], file = out)
 out.close()
 
+
+
 #generate a bar plot
-y_pos = np.arange(len(genes))
+y_pos = np.arange(len(dynamic_genes.keys()))
 
 # Create bars
-plt.bar(y_pos, counter)
+plt.bar(y_pos, dynamic_genes.values() )
 
 # Create names on the x-axis
-plt.xticks(y_pos, genes)
-
+#plt.xticks(y_pos, dynamic_genes)
+text = "Conserved genes in last " + str(nsteps) + " steps from total = " + str(len(evolution) -1)  
+plt.text(0.2, 1.1, text, horizontalalignment='left', verticalalignment='top')
 # Show graphic
 plt.show()
 
+exit()
 
+fig = plt.figure()
+ax = fig.add_axes([0,0,1,1])
+#langs = ['C', 'C++', 'Java', 'Python', 'PHP']
+#students = [23,17,35,29,12]
+#ax.bar(langs,students)
+ax.bar(dynamic_genes.keys(), dynamic_genes.values() )
+
+#n= range(len(dynamic_genes))
+#print(n)
+plt.show()
+exit()
