@@ -16,20 +16,20 @@ Neste repositório estão os arquivos da dissertação "**Análises de Fenótipo
 
 ## **Informações sobre os experimentos de RNA-seq _bulk_:**
 Para as curvas de crescimento com antibióticos:
-•	A P.aeruginosa foi incubada por 10h (curva de crescimento) em meio Mueller Hinton. Após esse período, foi adicionado os antimicrobianos:
-- Imipenem = 128 mg/l,
-- Polimixina B = 1 mg/ml,
-- Controle (sem adição de antibiótico);
+-    A P.aeruginosa foi incubada por 10h (curva de crescimento) em meio Mueller Hinton. Após esse período, foi adicionado os antimicrobianos:
+    -    Imipenem = 128 mg/l,
+    -    Polimixina B = 1 mg/ml,
+    -    Controle (sem adição de antibiótico);
 
-•	As culturas foram incubadas por mais 1h e então foram coletados 1 ml de cada tubo para realizar a extração de RNA (500 ul em cada tubo + 2 volumes de RNA protect).
+-    As culturas foram incubadas por mais 1h e então foram coletados 1 ml de cada tubo para realizar a extração de RNA (500 ul em cada tubo + 2 volumes de RNA protect).
 
 Para o biofilme: 
-•	O mesmo inóculo utilizado para as curvas de crescimento, foi utilizado para inocular uma placa de 12 poços. Após 24 h de incubação a 37 C, o crescimento (células planctônicas) foram transferidos para tubos para a leitura da OD600.
-•	O biofilme aderido a placa foi suspenso em 3 ml de PBS (mesmo volume que o usado no início do experimento). Nessa suspensão também foi realizada a leitura da OD600. 
-•	Foram coletados 1m da suspensão do biofilme para a extração do RNA. Os RNAS foram extraídos com o kit: RNeasy Minikit da Qiagen.
+-    O mesmo inóculo utilizado para as curvas de crescimento, foi utilizado para inocular uma placa de 12 poços. Após 24 h de incubação a 37 C, o crescimento (células planctônicas) foram transferidos para tubos para a leitura da OD600.
+-    O biofilme aderido a placa foi suspenso em 3 ml de PBS (mesmo volume que o usado no início do experimento). Nessa suspensão também foi realizada a leitura da OD600.
+-    Foram coletados 1m da suspensão do biofilme para a extração do RNA. Os RNAS foram extraídos com o kit: RNeasy Minikit da Qiagen.
 
 Para os experimentos com as diferentes fontes de carbono: 
-•	Foi utilizado o meio M9, e neste meio foram adicionados os açúcares a 40mM. A Pseudomonas foi inoculada e realizamos uma curva de crescimento. Conforme elas foram atingindo a mid-log, alíquotas foram sendo retiradas para extrair RNA.
+-    Foi utilizado o meio M9, e neste meio foram adicionados os açúcares a 40mM. A Pseudomonas foi inoculada e realizamos uma curva de crescimento. Conforme elas foram atingindo a mid-log, alíquotas foram sendo retiradas para extrair RNA.
 
 
 
