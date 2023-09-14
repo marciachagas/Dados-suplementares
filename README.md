@@ -12,7 +12,7 @@ Neste repositório estão os arquivos da dissertação "**Análises de Fenótipo
 -	Dados de RNA-seq normalizados, por Felicita Mabel (norm.zip);
 -	Dados binarizados dos genes da sub-rede núcleo (genes-bin.zip);
 -	Os resultados da simulação de trajetória e as bacias de atração (sim.zip);
--	Tabelas adicionais e figuras principais com maior resolução (figs.zip). Depois do download, dar zoom nas imagens para ver os detalhes.
+-	Tabelas adicionais (tabs-adicionais.pdf).
 
 ## **Informações sobre os experimentos de RNA-seq _bulk_:**
 Para as curvas de crescimento com antibióticos:
